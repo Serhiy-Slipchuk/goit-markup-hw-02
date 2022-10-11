@@ -107,6 +107,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--light-text-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 
@@ -202,4 +203,44 @@ body {
 }
 .footer-contacts:hover {
     text-decoration: underline solid 2px var(--accent-color);
+}
+
+
+
+/* --------------------------------------------- PORTFOLIO------------------------------------- */
+
+.portfolio-filter-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+        /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+        /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+        /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
