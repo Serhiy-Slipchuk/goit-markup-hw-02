@@ -42,10 +42,6 @@ body {
     color: var(--logo-color);
 }
 
-.logo:hover,
-.logo:focus {
-    text-decoration: underline solid var(--accent-color);
-}
 
 
 
@@ -59,7 +55,7 @@ body {
 
 .menu-nav:hover,
 .menu-nav:focus {
-    text-decoration: underline solid var(--accent-color);
+    color: var(--accent-color);
 }
 
 .current-page {
@@ -192,7 +188,6 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: var(--light-text-color);
-    text-decoration: underline solid var(--accent-color);
 }
 
 
@@ -200,18 +195,18 @@ body {
 /* --------------------------------------------- PORTFOLIO------------------------------------- */
 
 .portfolio-filter-btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62; 
         /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
-    background-color: var(--secondary-bg-color);
-    cursor: pointer;
-}
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+        background-color: var(--secondary-bg-color);
+        cursor: pointer;
+    }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
     color: var(--light-text-color);
